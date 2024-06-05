@@ -75,7 +75,7 @@ const HeroRightContainer = styled.div`
 
 const Title = styled.div`
   font-weight: 700;
-  font-size: 50px;
+  font-size: 35px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
 

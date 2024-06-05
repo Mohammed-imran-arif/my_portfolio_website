@@ -1,6 +1,6 @@
-import React, { useRef } from "react";
+import React from "react";
 import styled from "styled-components";
-import emailjs from "@emailjs/browser";
+
 
 const Container = styled.div`
   display: flex;
@@ -45,7 +45,7 @@ const Desc = styled.div`
   }
 `;
 
-const ContactForm = styled.div`
+const ContactForm = styled.form`
   width: 95%;
   max-width: 600px;
   display: flex;
@@ -102,31 +102,39 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  &:hover {
+    background-color:purple;
+  }
 `;
 
-const Contact = () => {
-  const form = useRef();
-  const handelSubmit = (e) => {
-    e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_tox7kqs",
-        "template_nv7k7mj",
-        form.current,
-        "SybVGsYS52j2TfLbi"
-      )
-      .then(
-        (result) => {
-          alert("Message Sent");
-          form.current.result();
-        },
-        (error) => {
-          alert(error);
-        }
-      );
+const Contact = (e) => {
+  /* const form = useRef(); */
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "4be6cf02-934f-4bfd-9c5c-67cf0e5fefac");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      console.log("Success", res);
+      alert(res.message)
+    }
   };
+
   return (
-    <Container id="Education">
+    <Container id="Contact">
       <Wrapper>
         <Title>Contact</Title>
         <Desc
@@ -136,12 +144,12 @@ const Contact = () => {
         >
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
-        <ContactForm onSubmit={handelSubmit}>
+        <ContactForm onSubmit={onSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" name="message" rows={4} />
+          <ContactInput type="email"  placeholder="Your Email" name="from_email" />
+          <ContactInput type="text" placeholder="Your Name" name="from_name" />
+          <ContactInput type="text" placeholder="Subject" name="subject" />
+          <ContactInputMessage  placeholder="Message" name="message" rows={4} />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
       </Wrapper>

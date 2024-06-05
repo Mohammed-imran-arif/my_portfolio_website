@@ -1,12 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
-import {
-  FacebookRounded,
-  Instagram,
-  LinkedIn,
-  Twitter,
-} from "@mui/icons-material";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -84,29 +81,22 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Rishav Chanda</Logo>
+        <Logo>Mohammed Imran Arif K</Logo>
         <Nav>
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
-          <NavLink href="#Experience">Experience</NavLink>
+          <NavLink href="#CourseWork">CourseWork</NavLink>
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Education">Education</NavLink>
+          <NavLink href="#Certification">Certification</NavLink>
         </Nav>
-        <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display">
-            <FacebookRounded />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display">
-            <Twitter />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display">
-            <LinkedIn />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display">
-            <Instagram />
-          </SocialMediaIcon>
+         <SocialMediaIcons>
+          <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Rishav Chanda. All rights reserved.</Copyright>
+        <Copyright>
+          &copy; 2024 Mohammed Imran Arif. All rights reserved.
+        </Copyright>
       </FooterWrapper>
     </FooterContainer>
   );

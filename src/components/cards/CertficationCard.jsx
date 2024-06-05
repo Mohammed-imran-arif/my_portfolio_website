@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Card = styled.div`
   width: 330px;
-  height: 490px;
+  height: 380px;
   background-color: ${({ theme }) => theme.card};
   cursor: pointer;
   border-radius: 10px;
@@ -43,8 +43,8 @@ const Details = styled.div`
   padding: 0px 2px;
 `;
 const Title = styled.div`
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 500;
   color: ${({ theme }) => theme.text_secondary};
   overflow: hidden;
   display: -webkit-box;
@@ -80,32 +80,24 @@ const Button = styled.a`
   text-decoration: none;
   font-weight: 600;
   text-align: center;
-  &:hover {
-    background-color:purple;
-    color:white;
-    border-radius:20px;
-  }
 `;
 
-const ProjectCard = ({ project }) => {
+const CertificationCard = ({ certification }) => {
   return (
     <Card>
-      <Image src={project.image} loading="lazy"/>
+      <Image src={certification.image} />
       <Tags></Tags>
       <Details>
-        <Title>{project.title}</Title>
-        <Date>{project.date}</Date>
-        <Description>{project.description}</Description>
+        <Title>{certification.title}</Title>
+        <Date>{certification.date}</Date>
+        <Description>{certification.description}</Description>
       </Details>
       
-      <Button href={project.github} target="_blank">
-        View Code
-      </Button>
-      <Button href={project.webapp} target="_blank">
-        View Live
+      <Button href={certification.github} target="_blank">
+        Click to View
       </Button>
     </Card>
   );
 };
 
-export default ProjectCard;
+export default CertificationCard;

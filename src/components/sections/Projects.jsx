@@ -48,7 +48,7 @@ const Desc = styled.div`
   }
 `;
 
-const ToggleButtonGroup = styled.div`
+/* const ToggleButtonGroup = styled.div`
   display: flex;
   border: 1.5px solid ${({ theme }) => theme.primary};
   color: ${({ theme }) => theme.primary};
@@ -76,7 +76,7 @@ const ToggleButton = styled.div`
     `
   background:  ${theme.primary + 20};
   `}
-`;
+`; */
 const Divider = styled.div`
   width: 1.5px;
   background: ${({ theme }) => theme.primary};
@@ -105,7 +105,7 @@ const Projects = () => {
           apps. Here are some of my projects.
         </Desc>
 
-        <ToggleButtonGroup>
+{/*         <ToggleButtonGroup>
           <ToggleButton
             active={toggle === "all"}
             onClick={() => setToggle("all")}
@@ -133,15 +133,15 @@ const Projects = () => {
           >
             MACHINE LEARNING
           </ToggleButton>
-        </ToggleButtonGroup>
+        </ToggleButtonGroup> */}
 
         <CardContainer>
           {toggle === "all" &&
-            projects.map((project) => <ProjectCard project={project} />)}
+            projects.map((project,index) => <ProjectCard project={project}key={index} />)}
           {projects
             .filter((item) => item.category === toggle)
-            .map((project) => (
-              <ProjectCard project={project} />
+            .map((project,index) => (
+              <ProjectCard project={project} key={index}/>
             ))}
         </CardContainer>
       </Wrapper>

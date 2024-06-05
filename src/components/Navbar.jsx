@@ -3,6 +3,10 @@ import { Link as LinkR } from "react-router-dom";
 import styled, { useTheme } from "styled-components";
 import { Bio } from "../data/constants";
 import { MenuRounded } from "@mui/icons-material";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import CreateIcon from '@mui/icons-material/Create';
 
 const Nav = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -27,10 +31,13 @@ const NavbarContainer = styled.div`
   font-size: 1rem;
 `;
 const NavLogo = styled(LinkR)`
+  display:flex;
+  
+  align-item:flex-end;
   width: 80%;
   padding: 0 6px;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 14px;
   text-decoration: none;
   color: inherit;
 `;
@@ -44,7 +51,7 @@ const NavItems = styled.ul`
   padding: 0 6px;
   list-style: none;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 875px) {
     display: none;
   }
 `;
@@ -67,7 +74,7 @@ const ButtonContainer = styled.div`
   justify-content: end;
   align-items: center;
   padding: 0 6px;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width:875px) {
     display: none;
   }
 `;
@@ -97,7 +104,7 @@ const MobileIcon = styled.div`
   align-items: center;
   color: ${({ theme }) => theme.text_primary};
   display: none;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 875px) {
     display: block;
   }
 `;
@@ -124,6 +131,9 @@ const MobileMenu = styled.ul`
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
   z-index: ${({ isOpen }) => (isOpen ? "1000" : "-1000")};
+  @media screen and (min-width: 875px) {
+    display: none;
+  }
 `;
 
 const Navbar = () => {
@@ -132,7 +142,7 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to="/">GeeksForGeeks</NavLogo>
+        <NavLogo to="/"><ArrowBackIosIcon/>Mohammed Imran Arif<CreateIcon/><ArrowForwardIosIcon/></NavLogo>
 
         <MobileIcon onClick={() => setIsOpen(!isOpen)}>
           <MenuRounded style={{ color: "inherit" }} />
@@ -141,9 +151,10 @@ const Navbar = () => {
         <NavItems>
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
-          <NavLink href="#Experience">Experience</NavLink>
+          <NavLink href="#CourseWork">CourseWork</NavLink>
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Education">Education</NavLink>
+          <NavLink href="#Certification">Certification</NavLink>
         </NavItems>
 
         {isOpen && (
@@ -163,6 +174,9 @@ const Navbar = () => {
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
               Education
             </NavLink>
+            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
+              Certification
+            </NavLink>
             <GithubButton
               href={Bio.github}
               target="_Blank"
@@ -178,7 +192,7 @@ const Navbar = () => {
 
         <ButtonContainer>
           <GithubButton href={Bio.github} target="_Blank">
-            Github Profile
+            <GitHubIcon/>
           </GithubButton>
         </ButtonContainer>
       </NavbarContainer>

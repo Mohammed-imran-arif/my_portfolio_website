@@ -49,18 +49,20 @@ const Desc = styled.div`
   }
 `;
 
-const Experience = () => {
+const CourseWork = () => {
   return (
-    <Container id="Experience">
+    <Container id="CourseWork">
       <Wrapper>
-        <Title>Experience</Title>
+        <Title>CourseWork</Title>
         <Desc
           style={{
             marginBottom: "40px",
+            fontFamily:"poppins",
+            wordSpacing:"3px",
+            fontWeight:400
           }}
         >
-          My work experience as a software engineer and working on different
-          companies and projects.
+          I learned MERN stack development at NXTWave CCBP 4.0 and I done Javascript course in Infosys SpringBoard. I learned many tech stack like HTML, CSS, Javascript, Reactjs, Bootstrap, Nodejs, Expressjs, Python, SQL. I have an hands on Experience in these Tech stack with I done a many projects. I have Course Completion Certificate. Currently i focus on Front End Development (ReactJs). 
         </Desc>
 
         <VerticalTimeline>
@@ -76,4 +78,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default CourseWork;

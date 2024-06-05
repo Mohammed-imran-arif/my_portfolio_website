@@ -93,6 +93,7 @@ const ExperienceCard = ({ experience }) => {
           alt={experience?.company}
           style={{ borderRadius: "50%", objectFit: "cover" }}
           src={experience?.img}
+          loading="lazy"
         />
       }
       contentStyle={{
@@ -112,23 +113,23 @@ const ExperienceCard = ({ experience }) => {
       date={experience?.date}
     >
       <Top>
-        <Image src={experience?.img} />
+        <Image src={experience?.nxt} loading="lazy"/>
         <Body>
           <Role>{experience?.role}</Role>
-          <Company>{experience?.company}</Company>
+          <Company>{experience?.tech}</Company>
           <Date>{experience?.date}</Date>
         </Body>
       </Top>
       <Description>
         {experience?.desc && <Span>{experience.desc}</Span>}
-        {experience?.skills && (
+        {experience?.Topics && (
           <>
             <br />
             <Skills>
-              <b>Skills</b>
+              <b>Topics</b>
               <ItemWrapper>
-                {experience?.skills?.map((skill, index) => (
-                  <Skill>• {skill}</Skill>
+                {experience?.Topics?.map((skill, index) => (
+                  <Skill key={skill}>• {skill}</Skill>
                 ))}
               </ItemWrapper>
             </Skills>

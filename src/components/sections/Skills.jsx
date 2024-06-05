@@ -126,18 +126,22 @@ const Skills = () => {
           }}
         >
           Here are some of my skills on which I have been working on for the
-          past 3 years.
+          past 1.5 years.
         </Desc>
 
         <SkillsContainer>
-          {skills.map((skill, index) => (
-            <Tilt>
-              <Skill key={`skill-${index}`}>
+          {skills.map((skill, index) =>
+            
+          (
+            <Tilt key={index}>
+              <Skill key={index}>
                 <SkillTitle>{skill.title}</SkillTitle>
                 <SkillList>
-                  {skill.skills.map((item, index_x) => (
-                    <SkillItem key={`skill-x-${index_x}`}>
-                      <SkillImage src={item.image} />
+                  {skill.skills.map((item) => 
+                                  (
+                   
+                    <SkillItem key={item.name}>
+                      <SkillImage src={item.image} loading="lazy"/>
                       {item.name}
                     </SkillItem>
                   ))}
