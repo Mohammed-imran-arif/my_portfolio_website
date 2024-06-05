@@ -104,8 +104,8 @@ export const experiences = [
   {
 
     id: 0,
-/*     img: "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/course%20icons%2Fpngegg.png?alt=media&token=588a16ad-6bf1-4e2c-ad12-530beb5e8a5a",
- */    role: "NXTWave CCBP 4.0 - HTML",
+   img: "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/course%20icons%2Fpngegg.png?alt=media&token=588a16ad-6bf1-4e2c-ad12-530beb5e8a5a",
+   role: "NXTWave CCBP 4.0 - HTML",
     tech: "Topics Covered",
     Topics: [
       "HTML Basics",
@@ -122,8 +122,8 @@ export const experiences = [
   },
   {
     id: 1,
-/*      img: "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/course%20icons%2Fpngegg%20(1).png?alt=media&token=fba4e088-d15d-408c-b93a-a142ff7e59c3", 
- */     role: "NXTWave CCBP 4.0 - CSS",
+      img: "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/course%20icons%2Fpngegg%20(1).png?alt=media&token=fba4e088-d15d-408c-b93a-a142ff7e59c3", 
+      role: "NXTWave CCBP 4.0 - CSS",
     tech: "Topics Covered",
     Topics: [
       "CSS Basics",
@@ -144,8 +144,8 @@ export const experiences = [
   },
   {
     id: 2,
-/*     img: "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/course%20icons%2Fpngegg%20(2).png?alt=media&token=d4e14ace-d162-44eb-8da1-328d2239e15b",
- */    role: "NXTWave CCBP 4.0 - Javascript",
+     img: "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/course%20icons%2Fpngegg%20(2).png?alt=media&token=d4e14ace-d162-44eb-8da1-328d2239e15b",
+     role: "NXTWave CCBP 4.0 - Javascript",
     tech: "Topics Covered",
     Topics: [
       "Javascript Basics",
@@ -164,8 +164,8 @@ export const experiences = [
   },
   {
     id: 3,
-/*     img: "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/course%20icons%2Fpngegg%20(2).png?alt=media&token=d4e14ace-d162-44eb-8da1-328d2239e15b",
- */    role: "Infosys Springboard - Javascript",
+     img: "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/course%20icons%2Fpngegg%20(2).png?alt=media&token=d4e14ace-d162-44eb-8da1-328d2239e15b",
+     role: "Infosys Springboard - Javascript",
     tech: "Topics Covered",
     Topics: [
       "Javascript Basics",
@@ -184,8 +184,8 @@ export const experiences = [
   },
   {
     id: 4,
-/*     img: "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/course%20icons%2Fpngegg%20(3).png?alt=media&token=92cfd29d-9338-49e1-94cc-f880426355a5",
- */    role: "NXTWave CCBP 4.0 - React JS",
+     img: "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/course%20icons%2Fpngegg%20(3).png?alt=media&token=92cfd29d-9338-49e1-94cc-f880426355a5",
+     role: "NXTWave CCBP 4.0 - React JS",
     tech: "Topics Covered",
     Topics: [
       "JSX",
@@ -206,8 +206,8 @@ export const experiences = [
   },
   {
     id: 5,
-/*     img: "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/course%20icons%2Fpngegg%20(4).png?alt=media&token=bc691cdb-ec06-4824-adfc-791782034e98",
- */    role: "NXTWave CCBP 4.0 - Node Js",
+     img: "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/course%20icons%2Fpngegg%20(4).png?alt=media&token=bc691cdb-ec06-4824-adfc-791782034e98",
+     role: "NXTWave CCBP 4.0 - Node Js",
     tech: "Topics Covered",
     Topics: [
       "Node REPL",
@@ -222,8 +222,8 @@ export const experiences = [
   },
   {
     id: 6,
-/*     img: "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/course%20icons%2Fpngwing.com.png?alt=media&token=9cb2b54c-caa7-4ae0-9a4a-3f866ab95973",
- */    role: "NXTWave CCBP 4.0 - Express js ",
+     img: "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/course%20icons%2Fpngwing.com.png?alt=media&token=9cb2b54c-caa7-4ae0-9a4a-3f866ab95973",
+     role: "NXTWave CCBP 4.0 - Express js ",
     tech: "Topics Covered",
     Topics: ["HTTP Server","Routes","Handling HTTP Request","Preparing HTTP Request",
         "Integration with Databases(SQLite)",
@@ -236,8 +236,8 @@ export const experiences = [
   },
   {
     id: 7,
-/*     img: "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/course%20icons%2Fpngegg%20(7).png?alt=media&token=cc3496d8-a34d-4c67-bc3c-f882d17846b2",
- */    role: "NXTWave CCBP 4.0 - SQLite ",
+     img: "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/course%20icons%2Fpngegg%20(7).png?alt=media&token=cc3496d8-a34d-4c67-bc3c-f882d17846b2",
+     role: "NXTWave CCBP 4.0 - SQLite ",
     tech: "Topics Covered",
     Topics: [
       "Introduction to SQL",
@@ -252,8 +252,8 @@ export const experiences = [
   },
   {
     id: 8,
-/*     img: "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/course%20icons%2Fpngegg%20(8).png?alt=media&token=a78a1226-4609-46ff-b640-c569aec9d16b",
- */    role: "NXTWave CCBP 4.0 - Python ",
+     img: "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/course%20icons%2Fpngegg%20(8).png?alt=media&token=a78a1226-4609-46ff-b640-c569aec9d16b",
+     role: "NXTWave CCBP 4.0 - Python ",
     tech: "Topics Covered",
     Topics: [
       "Introduction to Python",
@@ -371,7 +371,7 @@ export const education = [
 
   },
 
-  /* {
+   {
 
     id: 1,
     img: "https://media.assettype.com/edexlive%2Fimport%2F2018%2F8%2F10%2Foriginal%2Ftamilnadu_education.jpg?w=480&auto=format%2Ccompress&fit=max",
@@ -397,7 +397,7 @@ export const education = [
     desc: "I completed my class 10 education at Govt Higher Secondary School, chennai.",
     degree: "SSC(X), Science with Computer",
 
-  },  */
+  },  
 ];
 
 export const certification = [
