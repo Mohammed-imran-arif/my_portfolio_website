@@ -426,15 +426,6 @@ export const certification = [
     github: "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/certificate%2FScreenshot%20from%202024-06-05%2009-48-43.png?alt=media&token=35d8a0e5-07d1-42d2-b128-92f7aed7b0f5",
    
   },
-
-  {
-    id: 2,
-    title: "Build an ECommerce platfrom using React",
-    date: "Nov 28, 2023 from Scalar Masterclass",
-    image:"https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/certificate%2FScreenshot%20from%202024-06-05%2009-48-18.png?alt=media&token=84954f3f-bd00-4507-883c-cb5585de47da",
-    github: "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/certificate%2FScreenshot%20from%202024-06-05%2009-48-18.png?alt=media&token=84954f3f-bd00-4507-883c-cb5585de47da",
-   
-  },
   
   {
     id: 3,
