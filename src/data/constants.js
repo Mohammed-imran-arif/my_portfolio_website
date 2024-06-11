@@ -395,7 +395,7 @@ export const education = [
     grade: "90%",
 
     desc: "I completed my class 10 education at Govt Higher Secondary School, chennai.",
-    degree: "SSC(X), Science with Computer",
+    degree: "SSLC(X), Science with Computer",
 
   },  
 ];
