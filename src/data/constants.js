@@ -365,7 +365,7 @@ export const education = [
     date: "Aug 2018 - jul 2021",
 
     grade: "9.02 CGPA",
-    desc: "I compeleted my Bachelor's degree in computer Application (BCA) at PRIST University, chenna . I have a CGPA of 9.02.",
+    desc: "I compeleted my Bachelor's degree in computer Application (BCA) at PRIST University, chennai . I have a CGPA of 9.02.",
 
     degree: "Bachelor of Computer Application- BCA ",
 
