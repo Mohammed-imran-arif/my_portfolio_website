@@ -280,7 +280,7 @@ export const projects = [
     date: "Jun 02, 2024",
     description:
       "Developed a responsive YouTube clone using React JS, showcasing expertise in UI design, real-time data integration, and responsive web development.",
-    image:"https://github.com/Mohammed-imran-arif/assets/blob/main/weVideo_photo/Screenshot%20from%202024-06-09%2023-13-33.png",
+    image:"https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/we_video_photo%2FScreenshot%20from%202024-06-09%2023-13-33.png?alt=media&token=b5da76de-ad8b-4419-90f7-89adea7c4873",
     category: "web app",
     github: "https://github.com/Mohammed-imran-arif/we_video",
     webapp: "https://we-video.netlify.app",
@@ -311,7 +311,7 @@ export const projects = [
     description:
       "Developed a comprehensive e-commerce application featuring login, home, products, cart, and logout functionalities. Implemented JWT for user authentication and authorization. Added category sections and price sorting options (high-to-low and low-to-high.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+      "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/nxtTrendz_photo%2FScreenshot%20from%202024-06-14%2017-44-34.png?alt=media&token=677a2030-b320-4840-a925-08a9ff4db6ba",
     category: "web app",
 
     webapp: "https://arifnxttrendz.ccbp.tech/",
@@ -324,7 +324,7 @@ export const projects = [
     description:
       "Developed a live weather app using React JS to provide real-time weather updates, dynamic background changes, and error handling, enhancing the user experience and responsive features like dynamic temperature displays and live background images based on the weather conditions.",
     image:
-      "https://github.com/Mohammed-imran-arif/assets/blob/main/weatherApp_photo/Screenshot%20from%202024-06-13%2014-11-37.png",
+      "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/weatherapp_photo%2FScreenshot%20from%202024-06-13%2014-11-37.png?alt=media&token=2a822d6f-7cc2-4335-afc1-ea6269a9a15b",
    
     category: "web app",
     github: "https://github.com/Mohammed-imran-arif/weather_app/tree/main",
