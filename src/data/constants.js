@@ -274,15 +274,26 @@ export const experiences = [
 ];
 
 export const projects = [
+  {
+    id: 0,
+    title: "We Video",
+    date: "Jun 02, 2024",
+    description:
+      "Developed a responsive YouTube clone using React JS, showcasing expertise in UI design, real-time data integration, and responsive web development.",
+    image:"https://github.com/Mohammed-imran-arif/assets/blob/main/weVideo_photo/Screenshot%20from%202024-06-09%2023-13-33.png",
+    category: "web app",
+    github: "https://github.com/Mohammed-imran-arif/we_video",
+    webapp: "https://we-video.netlify.app",
+  },
   
   {
 
-    id: 0,
+    id: 1,
     title: "Gemini AI Chat",
     date: "May 28, 2024",
 
     description:
-      "Gemini AI chat Responsive web application used to chat and get Information with AI build by React Js",
+      "Successfully created a fully functional Google Gemini AI App using React JS, integrating engaging features such as interactive UI, question-answer functionality, and sidebar collapse/expand functionality.",
 
     image:
 
@@ -292,66 +303,35 @@ export const projects = [
     github: "https://github.com/Mohammed-imran-arif/project_gemini_ai",
     webapp: "https://clever-frangipane-afef7d.netlify.app/",
   },
-  {
-    id: 1,
-    title: "Job Finding App",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-    image:"https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Native", "JavaScript", "Axios"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
-  },
+  
   {
     id: 2,
-    title: "Podstream",
+    title: "Nxt Trendz (ECommerce Website)",
     date: "Apr 2023 - May 2023",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "Developed a comprehensive e-commerce application featuring login, home, products, cart, and logout functionalities. Implemented JWT for user authentication and authorization. Added category sections and price sorting options (high-to-low and low-to-high.",
     image:
       "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+
+    webapp: "https://arifnxttrendz.ccbp.tech/",
+    
   },
   {
     id: 3,
-    title: "Vexa",
-    date: "Oct 2022 - Present",
+    title: "Weather App",
+    date: "Jun 12, 2024",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "Developed a live weather app using React JS to provide real-time weather updates, dynamic background changes, and error handling, enhancing the user experience and responsive features like dynamic temperature displays and live background images based on the weather conditions.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
-    ],
+      "https://github.com/Mohammed-imran-arif/assets/blob/main/weatherApp_photo/Screenshot%20from%202024-06-13%2014-11-37.png",
+   
     category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
+    github: "https://github.com/Mohammed-imran-arif/weather_app/tree/main",
+    webapp: "https://arifs-weather-app.netlify.app/",
   },
  
+  
 ];
 
 
