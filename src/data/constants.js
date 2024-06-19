@@ -280,7 +280,8 @@ export const projects = [
     date: "Jun 02, 2024",
     description:
       "Developed a responsive YouTube clone using React JS, showcasing expertise in UI design, real-time data integration, and responsive web development.",
-    image:"https://shorturl.at/mz3Gy",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/html-and-css-project1.appspot.com/o/we_video_photo%2FScreenshot%20from%202024-06-09%2023-13-33.png?alt=media&token=332321d0-a5f5-4374-9ba9-a1a8c61afbb7",
     category: "web app",
     github: "https://github.com/Mohammed-imran-arif/we_video",
     webapp: "https://we-video.netlify.app",
